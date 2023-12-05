@@ -1,14 +1,16 @@
 const path = require('path');
 
 module.exports = {
-  entry: './src/index.js', // Entry point of your application
+  entry: './src/index.js',
   output: {
-    filename: 'bundle.js', // Output file name
-    path: path.resolve(__dirname, 'dist'), // Output directory
+    filename: 'bundle.js',
+    path: path.resolve(__dirname, 'dist'),
   },
-  mode: 'development', // Set the mode to 'development' or 'production'
+  mode: 'development',
   devServer: {
-    contentBase: './dist', // Serve files from the 'dist' directory
-    port: 8080, // Specify a port for the development server
+    static: {
+      directory: path.join(__dirname, 'dist'), // Set the content base directory
+    },
+    port: 8080,
   },
 };
