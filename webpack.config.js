@@ -9,7 +9,7 @@ module.exports = {
   mode: 'development',
   devServer: {
     static: {
-      directory: path.join(__dirname, 'dist'), // Set the content base directory
+      directory: path.join(__dirname, 'dist'),
     },
     port: 8080,
   },
