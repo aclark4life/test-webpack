@@ -134,3 +134,6 @@ Init (``make webpack-init``)
     src/
     git add src/index.js
     git add index.html
+
+Build (``make build``)
+--------------------------------------------------------------------------------
