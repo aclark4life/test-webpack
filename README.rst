@@ -137,3 +137,17 @@ Init (``make webpack-init``)
 
 Build (``make build``)
 --------------------------------------------------------------------------------
+
+::
+
+    alexclark at alexclarks-Air in ~/Developer/test-webpack-init on main!
+    (test-webpack-init) ± make build
+    npm run build
+
+    > test-webpack-init@1.0.0 build
+    > webpack
+
+    asset bundle.js 1.25 KiB [emitted] (name: main)
+    ./src/index.js 55 bytes [built] [code generated]
+    webpack 5.89.0 compiled successfully in 39 ms
+    git add dist/
