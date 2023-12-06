@@ -151,3 +151,18 @@ Build (``make build``)
     ./src/index.js 55 bytes [built] [code generated]
     webpack 5.89.0 compiled successfully in 39 ms
     git add dist/
+
+
+Serve (``make serve``)
+--------------------------------------------------------------------------------
+
+::
+
+    alexclark at alexclarks-Air in ~/Developer/test-webpack-init on main!
+    (test-webpack-init) ± make serve
+    /Library/Developer/CommandLineTools/usr/bin/make python-serve
+
+        Serving HTTP on http://0.0.0.0:8000
+
+    python -m http.server
+    Serving HTTP on :: port 8000 (http://[::]:8000/) ...
