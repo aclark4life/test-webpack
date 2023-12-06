@@ -6,3 +6,6 @@ install:
 build:
 	npm run build
 	-git add dist/
+
+serve:
+	$(MAKE) python-serve
