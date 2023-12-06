@@ -1,3 +1,2 @@
-// src/index.js
-console.log("Hello, Webpack!");
-
+const message = "Hello, World!";
+console.log(message);
