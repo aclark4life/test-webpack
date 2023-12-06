@@ -1,4 +1,4 @@
 test-webpack-init
 ================================================================================
 
-In which I run ``make webpack``.
+In which I initialize webpack.
