@@ -166,3 +166,8 @@ Serve (``make serve``)
 
     python -m http.server
     Serving HTTP on :: port 8000 (http://[::]:8000/) ...
+
+Results
+--------------------------------------------------------------------------------
+
+.. image:: screenshot.png
