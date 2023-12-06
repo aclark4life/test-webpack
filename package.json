@@ -98,5 +98,8 @@
     "webpack-sources": "^3.2.3",
     "which": "^2.0.2",
     "wildcard": "^2.0.1"
+  },
+  "directories": {
+    "lib": "lib"
   }
 }
